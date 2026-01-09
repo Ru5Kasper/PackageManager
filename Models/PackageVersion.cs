@@ -36,6 +36,26 @@ namespace PackageManager.Models
             }
         }
 
+        public int CompareTo(PackageVersion? other)
+        {
+            if (other == null) return 1;
+            
+            // Сравнение по Major
+            if (Major != other.Major)
+                return Major.CompareTo(other.Major);
+            
+            // Сравнение по Minor
+            if (Minor != other.Minor)
+                return Minor.CompareTo(other.Minor);
+            
+            // Сравнение по Patch
+            if (Patch != other.Patch)
+                return Patch.CompareTo(other.Patch);
+            
+            // Сравнение по VersionType
+            return VersionType.CompareTo(other.VersionType);
+        }
+
         public int Minor
         {
             get

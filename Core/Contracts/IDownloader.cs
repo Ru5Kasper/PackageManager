@@ -1,6 +1,6 @@
 ﻿namespace PackageManager.Core.Contracts
 {
-    internal interface IDownloader
+    public interface IDownloader
     {
         string Location { get; set; }
 

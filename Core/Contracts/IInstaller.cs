@@ -2,7 +2,7 @@
 
 namespace PackageManager.Core.Contracts
 {
-    internal interface IInstaller<T>
+    public interface IInstaller<T>
     {
         InstallerOperation Operation { get; set; }
 

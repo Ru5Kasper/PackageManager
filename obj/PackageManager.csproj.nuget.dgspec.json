@@ -57,24 +57,17 @@
             },
             "Moq": {
               "target": "Package",
-              "version": "[4.16.1, )"
+              "version": "[4.20.72, )"
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.13.2, )"
+              "version": "[4.4.0, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.0.0, )"
-            },
-            "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.1.0, )"
             },
             "coverlet.msbuild": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.4, )"

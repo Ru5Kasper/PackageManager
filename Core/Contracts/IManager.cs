@@ -1,6 +1,6 @@
 ﻿namespace PackageManager.Core.Contracts
 {
-    internal interface IManager
+    public interface IManager
     {
         bool Create(string path);
 

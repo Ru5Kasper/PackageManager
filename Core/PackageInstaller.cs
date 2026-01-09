@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace PackageManager.Core
 {
-    internal class PackageInstaller : IInstaller<IPackage>
+    public class PackageInstaller : IInstaller<IPackage>
     {
         private IDownloader downloader;
         private IProject project;
